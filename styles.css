@@ -1,0 +1,151 @@
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-details {
+    flex: 1;
+}
+
+.profile-details h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.profile-details p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.profile-details a {
+    margin-top: 10px;
+    margin-right: 10px; /* Add margin to the right of the buttons */
+}
+
+.summary {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.projects {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.projects h2 {
+    margin-bottom: 20px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.tags .badge {
+    margin-right: 5px;
+}
+
+.profiles {
+    background-color: #fff;
+    padding: 20px 0;
+}
+
+.profile-icons {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-icon {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile-icon img {
+    max-width: 80%;
+    max-height: 80%;
+}
+.card-body .btn {
+    margin-top: 10px; /* Add margin to the top of the button */
+}
+
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.side-menu {
+    position: fixed;
+    top: 50%; /* Adjust top position as needed */
+    left: 0;
+    transform: translateY(-50%);
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    z-index: 1000;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.side-menu ul li {
+    margin-bottom: 10px;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side-menu ul li a i {
+    margin-right: 5px;
+}
+
+/* Resume download button*/
+
+.resume-download {
+    background-color: #fff;
+    padding: 20px 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.resume-download .btn {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+/* Project Styles*/
+
