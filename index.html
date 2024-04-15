@@ -21,7 +21,8 @@
         </ul>
     </div>
     <header id="header">
-        <div class="container">
+    <div class="container">
+        <div class="profile-and-video">
             <div class="profile">
                 <img src="OPT.jpeg" alt="Phaneendra Ganji">
                 <div class="profile-details">
@@ -34,8 +35,14 @@
                     <a href="https://github.com/phaneendra2429" target="_blank" class="btn btn-primary"><i class="fab fa-github"></i> GitHub</a>
                 </div>
             </div>
+            <!-- YouTube video holder -->
+            <div class="video-holder">
+                <!-- <iframe width="360" height="220" src="https://www.youtube.com/embed/q9luhiQdXLA?si=7Q3llZVIverEyR4p&autoplay=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+            </div>
         </div>
-    </header>
+    </div>
+</header>
+
     
     <section id="summary" class="summary">
         <div class="container">
@@ -43,12 +50,26 @@
             <p>Lead ML Engineer proficient in data analysis, statistical modeling, and machine learning. My expertise is showcased in leading the development of a groundbreaking Mental Health Chatbot, leveraging Large Language Models (LLMs) and cutting-edge NLP techniques. Additionally, I specialize in business intelligence, optimizing course content and platform features to enhance user engagement and satisfaction. With a robust project management background, I've orchestrated  collaborative efforts and delivered impactful solutions across diverse domains. Furthermore, I bring a heightened focus on Generative AI, driving innovation in data science and AI through pioneering initiatives.</p>
         </div>
     </section>
-
+<!-- Add these links to switch between tabs -->
+   <!-- Tabs for different project categories -->
     <section id="projects" class="projects">
-        <div class="container">
-            <h2>Machine Learning Projects</h2>
-            <div class="row">
-                <!-- Project card 1 -->
+      <div class="container">
+      <h2>My Projects</h2>
+  
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ml-projects">ML Projects</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#sql">SQL</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#excel">Excel</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tableau">Tableau</a></li>
+        </ul>
+<br>
+        <div class="tab-content">
+            <!-- ML Projects Tab -->
+            <div id="ml-projects" class="container tab-pane active">
+                
+                <!-- ML Projects content -->
+                <div class="row">
+                    <!-- Project card 1 -->
                 <div class="col-md-4 mb-4">
                     <div class="card shadow">
                         <img src="project-image.jpg" class="card-img-top" alt="Project Image">
@@ -108,10 +129,38 @@
                         </div>
                     </div>
                 </div>
-            
+                </div>
+            </div>
+
+            <!-- SQL Tab -->
+            <div id="sql" class="container tab-pane fade">
+                <h2>SQL Projects</h2>
+                <!-- SQL Projects content -->
+                <div class="row">
+                    <!-- Project cards -->
+                </div>
+            </div>
+
+            <!-- Excel Tab -->
+            <div id="excel" class="container tab-pane fade">
+                <h2>Excel Projects</h2>
+                <!-- Excel Projects content -->
+                <div class="row">
+                    <!-- Project cards -->
+                </div>
+            </div>
+
+            <!-- Tableau Tab -->
+            <div id="tableau" class="container tab-pane fade">
+                <h2>Tableau Projects</h2>
+                <!-- Tableau Projects content -->
+                <div class="row">
+                    <!-- Project cards -->
+                </div>
+            </div>
         </div>
-        
-    </section>
+    </div>
+ </section>
 
     <section id="profiles" class="profiles">
         <div class="container">
@@ -124,7 +173,7 @@
                     <img src="google-dev-logo.png" alt="Google Developer Profile">
                 </div>
                 <div class="profile-icon">
-                    <img src="leetcode-logo.png" alt="Leetcode">
+                    <a href="https://leetcode.com/phaneendraganji3/"><img src="leetcode-logo.png" alt="Leetcode"></a>
                 </div>
             </div>
         </div>
