@@ -107,7 +107,7 @@ body {
 /* Adjustments for the floating menu */
 .side-menu {
     position: fixed;
-    top: 50%; /* Adjust top position as needed */
+    top: 50%; 
     left: 0;
     transform: translateY(-50%);
     background-color: #343a40;
@@ -118,7 +118,7 @@ body {
 }
 
 
-
+/* 
 .side-menu ul {
     list-style-type: none;
     padding: 0;
@@ -135,7 +135,7 @@ body {
 
 .side-menu ul li a i {
     margin-right: 5px;
-}
+} */
 
 /* Resume download button*/
 
@@ -166,3 +166,49 @@ body {
 .video-holder {
     flex: 1;
 }
+
+
+/* For Mobile Device */
+/* Media query for mobile devices */
+/* Adjustments for the floating menu */
+/* Adjustments for the floating menu */
+@media only screen and (max-width: 767px) {
+    .side-menu {
+        position: fixed;
+        top:80%;
+        /* transform: translateY(-0%); */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: #343a40;
+        color: #fff;
+        padding: 0;
+        text-align: center;
+        z-index: 1000;
+    }
+
+    .side-menu ul {
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0;
+        height: 10px; /* Adjust the height as needed */
+    }
+
+    .side-menu ul li {
+        list-style-type: none;
+        margin: 0;
+    }
+
+    .side-menu ul li a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 10px; /* Adjust padding as needed */
+    }
+
+    .side-menu ul li a i {
+        font-size: 24px; /* Adjust font size as needed */
+    }
+}
+
