@@ -118,7 +118,7 @@ body {
 }
 
 
-/* 
+
 .side-menu ul {
     list-style-type: none;
     padding: 0;
@@ -135,7 +135,7 @@ body {
 
 .side-menu ul li a i {
     margin-right: 5px;
-} */
+}
 
 /* Resume download button*/
 
@@ -175,8 +175,8 @@ body {
 @media only screen and (max-width: 767px) {
     .side-menu {
         position: fixed;
-        top:80%;
-        /* transform: translateY(-0%); */
+        top:92%;
+        transform: translateY(-0%);
         bottom: 0;
         left: 0;
         width: 100%;
@@ -185,6 +185,8 @@ body {
         padding: 0;
         text-align: center;
         z-index: 1000;
+        border-radius: 10px;
+
     }
 
     .side-menu ul {
