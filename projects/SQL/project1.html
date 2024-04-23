@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="projects\styles.css">
+</head>
+<body>
+    <section class="project-tags">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <h2>SweepShift: Refining Layoffs Data for Analysis</h2>
+                    <div class="tags">
+                        <span class="badge badge-primary">Data Cleaning</span>
+                        <span class="badge badge-secondary">Data Analysis</span>
+                    </div>
+                    <p><h5>Project Overview</h5>The objective of this project is to perform data cleaning on a dataset named "layoffs" using SQL. The dataset contains information about layoffs, including details such as company name, location, industry, total number of employees laid off, percentage of employees laid off, date of layoffs, stage of the company, country, and funds raised in millions. The data cleaning process involves several steps such as removing duplicates, standardizing data, handling null or blank values, and performing exploratory data analysis.</p>
+                    <a href="https://github.com/phaneendra2429/Portfolio_Projects/tree/main/SQL/Project%202" class="btn btn-primary"><i class="fab fa-github"></i> GitHub Link</a>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <!-- Image carousel goes here -->
+                    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#imageCarousel" data-slide-to="1"></li>
+                            <li data-target="#imageCarousel" data-slide-to="2"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image.png" class="d-block w-100" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image2.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image3.png" class="d-block w-100" alt="Image 3">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#imageCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#imageCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Divider -->
+    <hr>
+    
+    <section class="project-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Project details -->
+                    <h3>Project Details</h3>
+                    <h6>Removing Duplicates:</h6>
+<ul>
+  <li>Identifying and removing duplicate records based on specific columns such as company, location, industry, total laid off, percentage laid off, date, stage, country, and funds raised.</li>
+</ul>
+
+<h6>Standardizing Data:</h6>
+<ul>
+  <li>Standardizing company names by removing leading and trailing spaces.</li>
+  <li>Standardizing industry names by categorizing similar industries (e.g., grouping all "Crypto" related industries under a single category).</li>
+  <li>Standardizing country names by removing trailing punctuation marks and abbreviations.</li>
+</ul>
+
+<h6>Working on Time Series Data:</h6>
+<ul>
+  <li>Converting the date column from string to date format using appropriate functions.</li>
+  <li>Altering the table to modify the date column datatype to DATE.</li>
+</ul>
+
+<h6>Handling Null and Blank Values:</h6>
+<ul>
+  <li>Identifying and handling null and blank values in columns such as total laid off, percentage laid off, and industry.</li>
+  <li>Attempting to fill null values using joins with existing data where applicable.</li>
+</ul>
+
+<h6>Exploratory Data Analysis (EDA):</h6>
+<ul>
+  <li>Performing EDA to gain insights into the dataset.</li>
+  <li>Analyzing total layoffs by company, industry, funding stage, and year.</li>
+  <li>Calculating rolling totals of layoffs over time.</li>
+  <li>Ranking companies based on layoffs per year and selecting the top 5 companies for each year.</li>
+</ul>
+                </div>
+                <div class="col-md-6">
+                    <!-- YouTube video holder -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
