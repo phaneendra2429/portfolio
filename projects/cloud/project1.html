@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="projects\styles.css">
+</head>
+<body>
+    <section class="project-tags">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <br>
+                    <h2>Image Gallery Application using Flask in GCP</h2>
+                    <div class="tags">
+                        <span class="badge badge-secondary">GCP</span>
+                        <span class="badge badge-primary">Flask</span>
+                        <span class="badge badge-secondary">Firebase</span>
+                    </div>
+                    <p>The Image Gallery Application is a web-based platform designed to allow users to securely upload, manage, and view images. It offers user authentication, image storage utilizing Google Cloud Storage, and deployment through Google Cloud Run. The application is built using Python Flask for the backend, incorporating Firebase Authentication for user authentication and Google Cloud services for image storage and deployment.</p>
+                    <a href="https://github.com/phaneendra2429/gallery_app-main" class="btn btn-primary"><i class="fab fa-github"></i> GitHub Link</a>
+                </div>
+                <div class="col-md-6">
+                    <br>
+                    <!-- Image carousel goes here -->
+                    <div id="imageCarousel" class="carousel slide" data-ride="carousel">
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators">
+                            <li data-target="#imageCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#imageCarousel" data-slide-to="1"></li>
+                            <li data-target="#imageCarousel" data-slide-to="2"></li>
+                        </ul>
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="image.png" class="d-block w-100" alt="Image 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image2.png" class="d-block w-100" alt="Image 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="image3.png" class="d-block w-100" alt="Image 3">
+                            </div>
+                        </div>
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#imageCarousel" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#imageCarousel" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Divider -->
+    <hr>
+    
+    <section class="project-details">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <!-- Project details -->
+                    <h3>Project Details</h3>
+                    
+    <h5>Tools and Technologies Used:</h5>
+    <ul>
+        <li><strong>Flask:</strong> Flask is a lightweight WSGI web application framework in Python. It provides tools and libraries for building web applications.</li>
+        <li><strong>Firebase Authentication:</strong> Firebase Authentication is a service provided by Google for authenticating users to your app. It offers multiple authentication methods, including email/password, Google sign-in, and more.</li>
+        <li><strong>Google Cloud Platform (GCP):</strong>
+            <ul>
+                <li><strong>Google Cloud Storage:</strong> A scalable object storage service for storing and retrieving data. It provides durability, scalability, and security for storing user-uploaded images.</li>
+                <li><strong>Google Cloud Datastore:</strong> A NoSQL document database built for automatic scaling, high performance, and ease of application development.</li>
+                <li><strong>Google Cloud Run:</strong> A managed compute platform that enables users to run stateless containers on a fully managed environment.</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h5>Detailed Functionality:</h5>
+    <ol>
+        <li>
+            <h6>User Authentication:</h6>
+            <ul>
+                <li>The application utilizes Firebase Authentication for user authentication.</li>
+                <li>Users can sign up using their email and password, and existing users can log in securely.</li>
+            </ul>
+        </li>
+        <li>
+            <h6>Image Upload and Storage:</h6>
+            <ul>
+                <li>Users can upload images through the web interface.</li>
+                <li>Upon upload, images are securely stored in Google Cloud Storage within individual user-specific folders.</li>
+                <li>Metadata about the uploaded images, including user information and image URL, is stored in Google Cloud Datastore.</li>
+            </ul>
+        </li>
+        <li>
+            <h6>Image Viewing and Management:</h6>
+            <ul>
+                <li>Users can view their uploaded images in the gallery interface.</li>
+                <li>Images are displayed along with their metadata, including EXIF data if available.</li>
+                <li>Users can delete images from their gallery.</li>
+            </ul>
+        </li>
+    </ol>
+
+    <h5>Deployment:</h5>
+    <p>The application is deployed on Google Cloud Platform using Cloud Run:</p>
+    <ul>
+        <li>Docker containers are created for the Flask application.</li>
+        <li>Implemented CI/CD by integrating github and google cloud Run</li>
+        <li>The containerized application is deployed to Google Cloud Run, which automatically manages scalability and availability.</li>
+    </ul>
+
+
+                </div>
+                <div class="col-md-6">
+                    <!-- YouTube video holder -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/your-video-id" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
