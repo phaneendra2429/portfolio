@@ -23,7 +23,8 @@ header {
 }
 
 .profile-details {
-    flex: 1;
+    flex: 2;
+    /* align-self: flex-end; */
 }
 
 .profile-details h1 {
@@ -218,10 +219,10 @@ body {
 }
 
 
-/* Adaptive screen */
+/* Adaptive screen
 /* For Tablets and Smaller Screens */
 @media only screen and (max-width: 991px) {
-    /* Adjustments for header */
+    /* Adjustments for header
     header {
         padding: 10px 0;
     }
@@ -239,11 +240,11 @@ body {
         font-size: 14px;
     }
 
-    /* Adjustments for project cards */
+    Adjustments for project cards
     .card-body .btn {
         font-size: 14px;
-    }
-}
+    } */
+} 
 
 /* For Mobile Devices */
 @media only screen and (max-width: 767px) {
