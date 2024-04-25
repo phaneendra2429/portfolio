@@ -2,7 +2,13 @@
        
 // Define project data
 mlProjectsData = [
-    
+    {
+        title: 'Melanoma Skin Cancer Detection',
+        description: '',
+        tags: ['Deep Learning', 'Neural Networks'],
+        image: 'projects/ML Projects/image2.png',
+        link: 'projects/ML Projects/project1.html'
+    }
     // Add more projects as needed
 ];
 
