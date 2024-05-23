@@ -59,6 +59,24 @@ awsProjectsData = [
             }
             // Add more projects as needed
         ];
+// New Gen AI project data
+genaiProjectsData = [
+    {
+        title: 'Text Generation with GPT-3',
+        description: 'Using OpenAI\'s GPT-3 for generating human-like text for various applications.',
+        tags: ['Generative AI', 'NLP', 'GPT-3'],
+        image: 'projects/Gen AI/image1.png',
+        link: 'projects/Gen AI/project1.html'
+    },
+    {
+        title: 'AI-Powered Chatbot for Mental Health',
+        description: 'A chatbot designed to assist users with mental health issues using AI-driven responses.',
+        tags: ['Chatbot', 'NLP', 'AI'],
+        image: 'projects/Gen AI/image2.png',
+        link: 'projects/Gen AI/project2.html'
+    }
+    // Add more projects as needed
+];
 
 // Function to create and add project cards dynamically
 function addProjectCards(category, projects) {
@@ -91,6 +109,7 @@ addProjectCards('sql', sqlProjectsData);
 addProjectCards('excel', excelProjectsData);
 addProjectCards('tableau', tabProjectsData);
 addProjectCards('aws', awsProjectsData);
+addProjectCards('genai', genaiProjectsData); 
 
 
 // document.getElementById('projectForm').addEventListener('submit', function(event) {

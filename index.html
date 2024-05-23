@@ -25,7 +25,7 @@
             <div class="profile-and-video">
                 <!-- Profile section -->
                 <div class="profile">
-                    <img src="Pics\OPT.jpeg" alt="Phaneendra Ganji">
+                    <img src="Pics\OPT.png" alt="Phaneendra Ganji">
                 </div>
                 <!-- Profile details -->
                 <div class="profile-details">
@@ -57,7 +57,8 @@
         <div class="container">
             <h2>My Projects</h2>
             <ul class="nav nav-tabs">
-                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#ml-projects">ML Projects</a></li>
+                <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#genai">Gen AI</a></li>
+                <li class="nav-item"><a class="nav-link " data-toggle="tab" href="#ml-projects">ML Projects</a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#sql">SQL</a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#excel">Excel</a></li>
                 <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tableau">Tableau</a></li>
@@ -65,6 +66,15 @@
             </ul>
             <br>
             <div class="tab-content">
+                
+                <!-- Gen AI Tab -->
+                <div id="genai" class="container tab-pane fade">
+                    <h4>Gen AI</h4>
+                    <div class="row" id="genai-content">
+                        <!-- Gen AI Projects content will be dynamically generated here -->
+                    </div>
+                </div>
+                
                 <!-- ML Projects Tab -->
                 <div id="ml-projects" class="container tab-pane active">
                     <h4>ML Projects</h4>
@@ -80,6 +90,8 @@
                         <!-- SQL Projects content will be dynamically generated here -->
                     </div>
                 </div>
+
+                
 
                 <!-- Excel Tab -->
                 <div id="excel" class="container tab-pane fade">
